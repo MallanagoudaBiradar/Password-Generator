@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(111deg, rgb(166, 57, 57), rgb(59, 59, 150));
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-weight: bolder;
+    color: white;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: 70px;
+    
+    font-weight: bolder;
+    color: rgb(48, 231, 48);
+    }
+
+u{
+    color: white;
+    
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+input{
+   
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+button{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    background-color:rgb(48, 231, 48) ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 70px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.display{
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 48px;
+    width: 475px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.display img{
+    position: absolute;
+    left: 510px;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    right: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
